@@ -15,6 +15,7 @@ const PORT = process.env.PORT || 3001;
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
+  "https://rikkys-perfume.vercel.app",
   process.env.ADMIN_ORIGIN,
   process.env.STORE_ORIGIN,
 ].filter(Boolean);
